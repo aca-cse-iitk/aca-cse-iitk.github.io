@@ -1,0 +1,8 @@
+<aside class="row-item small-full medium-third{{ if and (isset .Params "leftsidebar") (eq .Params.leftsidebar true) }} left{{ else }} right{{ end }}" itemscope itemtype="http://schema.org/WPSideBar">
+  {{ partialCached "widgets/patreon.html" . }}
+  {{ partialCached "widgets/search.html" . }}
+	{{ partialCached "widgets/recent.html" . }}
+  {{ partialCached "widgets/events.html" . }}
+	{{ partialCached "widgets/categories.html" . }}
+	{{ partialCached "widgets/taglist.html" . }}
+</aside>

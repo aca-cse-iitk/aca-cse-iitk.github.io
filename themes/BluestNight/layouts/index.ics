@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Shadow53/BluestNight//NONSGML {{ $.Site.Title }}//EN
+{{- range $.Site.Data.events }}
+BEGIN:VEVENT
+UID:{{ md5 (add (md5 .name) (md5 .startDatetime)) }}@{{ $.Site.BaseURL }}
+DTSTAMP:{{ dateFormat "20060102T150405Z" now.UTC }}
+SUMMARY:{{ .name }}
+DTSTART:{{ dateFormat "20060102T150405Z" .startDatetime.UTC }}
+DTEND:{{ dateFormat "20060102T150405Z" .endDatetime.UTC }}
+LOCATION:{{ .location }}
+DESCRIPTION: {{ .description }}
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-PT10M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+{{- end }}
+END:VCALENDAR

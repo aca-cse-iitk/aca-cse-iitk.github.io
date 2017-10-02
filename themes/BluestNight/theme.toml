@@ -1,0 +1,8 @@
+name = "BluestNight"
+license = "MIT"
+licenselink = "https://gitlab.com/BluestNight/BluestNight/blob/master/LICENSE.md"
+description = "A featureful, configurable, yet sleek dark theme for Hugo."
+homepage = "https://gitlab.com/BluestNight/BluestNight"
+tags = ["Blog", "Contact Form", "Dark", "Font Awesome", "Netlify", "Responsive", "Syntax Highlighting", "Search", "Widgets", "Writing"]
+min_version = 0.24
+

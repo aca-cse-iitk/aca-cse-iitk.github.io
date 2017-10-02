@@ -1,0 +1,30 @@
+{{- .Scratch.Set "iub_color" $.Site.Params.iubenda.color -}}
+{{- if and (ne $.Site.Params.iubenda.color "black") (ne $.Site.Params.iubenda.color "white") -}}
+  {{- .Scratch.Set "sitevar" $.Site -}}
+  {{- partial "css/color/parse_color.css" . -}}
+  {{- .Scratch.Set "label" "alt_bg" -}}
+  {{- partial "css/color/detect_light_or_dark.css" .Scratch -}}
+  {{- if (.Scratch.Get "alt_bg_is_dark") -}}
+    {{ .Scratch.Set "iub_color" "black" }}
+  {{ else }}
+    {{ .Scratch.Set "iub_color" "white" }}
+  {{ end }}
+{{- end -}}
+{{- $color := .Scratch.Get "iub_color" -}}
+<a href="//www.iubenda.com/privacy-policy/{{ $.Site.Params.iubenda.id }}" class="iubenda-{{ $color }} {{ if $.Site.Params.iubenda.legal_only }}iub-legal-only {{end}} iubenda-embed" title="Privacy Policy">Privacy Policy</a>
+<script type="text/javascript">
+(function (w,d) {
+  var loader = function () {
+    var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
+    s.src = "//cdn.iubenda.com/iubenda.js";
+    tag.parentNode.insertBefore(s,tag);
+  };
+  if (w.addEventListener) {
+    w.addEventListener("load", loader, false);
+  } else if (w.attachEvent) {
+    w.attachEvent("onload", loader);
+  } else {
+    w.onload = loader;
+  }
+})(window, document);
+</script>
