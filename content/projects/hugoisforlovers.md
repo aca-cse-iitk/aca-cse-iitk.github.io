@@ -1,15 +1,13 @@
 ---
-title: "Air War Unity"
+title: "Sample Project"
 date: 2016-12-23 16:42:00 +0530
-author: gupabhi
-tags:
+author: sample Author
+tags: <!-- Add tags for your project here -->
  - summer16
  - project
-categories:
+categories: <!-- Add categores for your project here -->
  - project
 ---
-
- 
 This is a single player air-fight based game built on Unity3D platform. The scripts were written in C# language using Microsoft Visual Studio
 
 This game comprises of two modes-
