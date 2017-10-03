@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jaskirat1208.github.io/contact/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaskirat1208.github.io/projects/hugoisforlovers/</loc>
+    <lastmod>2016-12-23T16:42:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaskirat1208.github.io/categories/---add-categores-for-your-project-here------project/</loc>
+    <lastmod>2016-12-23T16:42:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jaskirat1208.github.io/tags/---add-tags-for-your-project-here------summer16---project/</loc>
+    <lastmod>2016-12-23T16:42:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jaskirat1208.github.io/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaskirat1208.github.io/categories/</loc>
+    <lastmod>2016-12-23T16:42:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jaskirat1208.github.io/projects/</loc>
+    <lastmod>2016-12-23T16:42:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jaskirat1208.github.io/tags/</loc>
+    <lastmod>2016-12-23T16:42:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
