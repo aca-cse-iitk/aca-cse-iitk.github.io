@@ -21,6 +21,7 @@ enableRobotsTXT = true # Suggested, enable robots.txt file
     post_navigation = true
     alert = "NO RECENT NOTIFICATIONS"
     favicon = "/favicon.jpg"
+
 [Params.widgets]
     search = false
     recent_articles = true

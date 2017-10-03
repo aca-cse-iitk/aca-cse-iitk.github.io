@@ -197,7 +197,7 @@ table, th, td {
 		                                </div>
 		                            </div>
 		                            <div class="team-title">
-		                                <h5 class="text-center">Linda Anderson</h5>
+		                                <h5 class="text-center">Akshat Jindal</h5>
 		                                <p class="text-center">UG Coordinator</p>
 									</div>
 		                        </td>
