@@ -1,7 +1,0 @@
-{{- /* Do not modify links with leading "//" as those represent a URL with same protocol as this connection */ -}}
-{{- if and (gt (len .) 1) (and (hasPrefix . "/") (not (hasPrefix . "//"))) -}}
-  {{- (slicestr . 1) | absLangURL -}}
-{{- else -}}
-  {{- . | absLangURL -}}
-{{- end -}}
-{{- index (findRE "\\#.*" . 1) 0 -}}

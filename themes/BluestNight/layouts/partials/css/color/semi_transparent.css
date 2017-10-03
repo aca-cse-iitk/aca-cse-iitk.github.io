@@ -1,3 +1,0 @@
-{{- partial "css/color/get_rgb_numbers.css" . -}}
-{{- .Set "alpha" (div (.Get "alpha" | default 255) 4.0) -}}
-rgba({{ .Get "red" }}, {{ .Get "green" }}, {{ .Get "blue" }}, {{ .Get "alpha" }})
