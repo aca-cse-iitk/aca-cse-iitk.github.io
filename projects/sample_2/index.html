@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tags</title>
+    <title>Robot Motion Planning</title>
     
     
     
@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com/" />
     <link rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
 
-    <meta name="description" itemprop="description" content="Association of Computing activities" id="desc"><meta name="generator" content="Hugo 0.29" /><link rel="canonical" href="https://jaskirat1208.github.io/tags/">
+    <meta name="description" itemprop="description" content="&lt;p&gt;In this project, we are trying to move a turtlebot from starting point to the destination, in such a way that it tries to avoid all the obstacles in the way. &lt;/p&gt;" id="desc"><meta name="generator" content="Hugo 0.29" /><link rel="canonical" href="https://jaskirat1208.github.io/projects/sample_2/">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -54,26 +54,24 @@
         
         
         
-  <main class="row-item small-full medium-two-thirds">
-		<header id="page-header">
-			<h1 id="page-title">Tags</h1>
-		</header>
-
+<main class="row-item small-full medium-two-thirds" >
+  <article id="post-article" itemscope itemtype="http://schema.org/Article" itemref="desc">
+    <header id="page-header">
+      <h1 itemprop="headline">Robot Motion Planning</h1><p id="post-metadata" class="row"></p>
+      
+    </header>
     
+    <div id="post-content">
+      <span itemprop="articleBody"><p>In this project, we are trying to move a turtlebot from starting point to the destination, in such a way that it tries to avoid all the obstacles in the way. </p>
 
-    <ul id="taxonomy-list" class="row">
-      <div class="row-item small-full medium-half large-third">
-        <li class="taxonomy-item"><a href="https://jaskirat1208.github.io/tags/project">project</a> (1)
-        </li>
-      </div>
-      
-      <div class="row-item small-full medium-half large-third">
-        <li class="taxonomy-item"><a href="https://jaskirat1208.github.io/tags/summer16">summer16</a> (1)
-        </li>
-      </div>
-      
-    </ul>
-  </main>
+<p>This is a console application. The user enters the destination cell coordinates on the console which are given as input. This input is passed to a planner that plans the path considering the fixed obstacles there. This path is passed on to the executor that follows the path. Now if the object sees an obstacle in its path, it sends the signal to the replanner which replans the path and passes on to the executor.<br />
+ Regarding the algorithm, we are using the dstarlite algorithm to plan the path from source to destination and replan it again.Currently, this project is being run on a simulator. We haven&rsquo;t yet tested it in real time.</p>
+
+<p>A small video of the test will be shown in a while. So, dont worry, be happy.</p></span>
+    </div></article>
+
+  <nav id="post-nav" class="row"><a href="https://jaskirat1208.github.io/projects/hugoisforlovers/" rel="prev" class="small-full medium-half pagination small-text-center medium-text-left"><span class="fa fa-chevron-circle-left"></span> Sample Project</a></nav></main>
+
         <aside class="row-item small-full medium-third right" itemscope itemtype="http://schema.org/WPSideBar">
   
   
