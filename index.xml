@@ -10,13 +10,119 @@
     
     
     <item>
-      <title>Air War Unity</title>
-      <link>https://aca-cse-iitk.github.io/projects/sample/</link>
+      <title>Learn to Play Atari Games using Reinforcement Learning</title>
+      <link>https://aca-cse-iitk.github.io/projects/markdownforref---harish-rajagopal/</link>
+      <pubDate>Tue, 10 Oct 2017 18:40:00 +0530</pubDate>
+      
+      <guid>https://aca-cse-iitk.github.io/projects/markdownforref---harish-rajagopal/</guid>
+      <description>&lt;p&gt;This is an agent made to learn playing Atari Pong, which runs on the principles of Reinforcement Learning. The code is written in Python using Keras and OpenAI Gym.
+&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Linux From Scratch</title>
+      <link>https://aca-cse-iitk.github.io/projects/ayush268---ayush-bansal/</link>
+      <pubDate>Tue, 10 Oct 2017 16:42:00 +0530</pubDate>
+      
+      <guid>https://aca-cse-iitk.github.io/projects/ayush268---ayush-bansal/</guid>
+      <description>&lt;p&gt;This project was targeted to make us familiar with the Bash Script (Default Shell), Concepts of Python Language, Linux Architecture and how to work your way around in a linux operating system.
+&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Android Development</title>
+      <link>https://aca-cse-iitk.github.io/projects/markdownforref---devanshu-somani/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aca-cse-iitk.github.io/projects/markdownforref---devanshu-somani/</guid>
+      <description>&lt;h1 id=&#34;aca-project-markdown-file&#34;&gt;ACA Project Markdown File -&lt;/h1&gt;
+
+&lt;h5 id=&#34;by-devanshu-somani-160231-and-niket-agrawal-160446&#34;&gt;&lt;em&gt;By Devanshu Somani(160231) and Niket Agrawal(160446)&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;In our project, we aimed at learning basic android application developing techniques using Android Studio.
+&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Mini Projects on Algorithms, Python, Web Dev, Cyber Security Wargames, Machine Learning, Latex</title>
+      <link>https://aca-cse-iitk.github.io/projects/sample---yash-chandnani/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aca-cse-iitk.github.io/projects/sample---yash-chandnani/</guid>
+      <description>&lt;p&gt;Project aimed at learning about various fields in computer science and is a good start to knowning various topics like webD, Machine Learning, Cyber-Security(Wargames), etc.
+&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Game Theory</title>
+      <link>https://aca-cse-iitk.github.io/projects/markdownforref---siddharth-nohria/</link>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aca-cse-iitk.github.io/projects/markdownforref---siddharth-nohria/</guid>
+      <description>&lt;p&gt;It includes zero sum games in which a person plays against computer or 2 persons play against each other using zeromq library. We made two games as part of this project- Tic-Tac-Toe and Connect4.
+
+The project consists of two games :-&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>ACA Mini-Projects (-Anuj Nagpal)</title>
+      <link>https://aca-cse-iitk.github.io/projects/markdownforref---tushar-gurjar/</link>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aca-cse-iitk.github.io/projects/markdownforref---tushar-gurjar/</guid>
+      <description>&lt;p&gt;This is a composition of many mini-projects. It involved Learning Python, C++, HTML and Basic CSS, Algorithms, Web Scraping, Learning Latex and Introduction to Machine Learning. The coding work is done in C++ language.
+&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>System and Cyber Security</title>
+      <link>https://aca-cse-iitk.github.io/projects/project17---kamlesh-kumar/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aca-cse-iitk.github.io/projects/project17---kamlesh-kumar/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;  this  project was about learning, exploring and exploiting various security vulnerability in a program.  Project was mostly based on system vulnerabilities under “old-style” Linux system.
+&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Haskell-Crypto</title>
+      <link>https://aca-cse-iitk.github.io/projects/readme---ankit-kumar-singh/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aca-cse-iitk.github.io/projects/readme---ankit-kumar-singh/</guid>
+      <description>Tic-Tac-Toe is a single player vs cpu game Mentor : Prannay Khosla
+Haskell Crypto Tic-Tac-Toe</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Linux From Scratch</title>
+      <link>https://aca-cse-iitk.github.io/projects/linux-from-scratch/</link>
       <pubDate>Fri, 23 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://aca-cse-iitk.github.io/projects/sample/</guid>
-      <description>&lt;p&gt;Hi all. You have to prepare this type of markdown file. You must take care of the format above. Add as many tags as you want. Add categories. Date and time must be in the proper format as described above.
-&lt;/p&gt;</description>
+      <guid>https://aca-cse-iitk.github.io/projects/linux-from-scratch/</guid>
+      <description>&lt;p&gt;By: Parv Mor&lt;/p&gt;
+
+&lt;p&gt;Project: Linux from Scratch
+Mentor: Pallav Agarwal&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     
