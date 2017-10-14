@@ -163,13 +163,13 @@
   </url>
   
   <url>
-    <loc>https://aca-cse-iitk.github.io/categories/java/</loc>
+    <loc>https://aca-cse-iitk.github.io/tags/java/</loc>
     <lastmod>2017-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aca-cse-iitk.github.io/tags/java/</loc>
+    <loc>https://aca-cse-iitk.github.io/categories/java/</loc>
     <lastmod>2017-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -223,13 +223,13 @@
   </url>
   
   <url>
-    <loc>https://aca-cse-iitk.github.io/categories/project/</loc>
+    <loc>https://aca-cse-iitk.github.io/tags/project/</loc>
     <lastmod>2017-10-10T18:40:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aca-cse-iitk.github.io/tags/project/</loc>
+    <loc>https://aca-cse-iitk.github.io/categories/project/</loc>
     <lastmod>2017-10-10T18:40:00+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -241,25 +241,25 @@
   </url>
   
   <url>
-    <loc>https://aca-cse-iitk.github.io/categories/python/</loc>
-    <lastmod>2017-10-10T16:42:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://aca-cse-iitk.github.io/tags/python/</loc>
     <lastmod>2017-10-10T16:42:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aca-cse-iitk.github.io/categories/rl/</loc>
-    <lastmod>2017-10-10T18:40:00+05:30</lastmod>
+    <loc>https://aca-cse-iitk.github.io/categories/python/</loc>
+    <lastmod>2017-10-10T16:42:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aca-cse-iitk.github.io/tags/rl/</loc>
+    <lastmod>2017-10-10T18:40:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aca-cse-iitk.github.io/categories/rl/</loc>
     <lastmod>2017-10-10T18:40:00+05:30</lastmod>
     <priority>0</priority>
   </url>
