@@ -1,0 +1,62 @@
+{
+  "name": "educenter",
+  "version": "1.1.0",
+  "description": "educenter free education template",
+  "author": "Themefisher",
+  "license": "MIT",
+  "homepage": "https://hitesh-anand.github.io/aca_web",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d theme",
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "animejs": "^3.2.1",
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-header-comment": "^0.10.0",
+    "gulp-rimraf": "^1.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "install": "^0.13.0",
+    "merge-stream": "^2.0.0",
+    "npm": "^8.19.3",
+    "require": "^2.4.20",
+    "sass": "^1.52.3",
+    "slick-carousel": "^1.8.1",
+    "smoothscroll-for-websites": "^1.4.10",
+    "wowjs": "^1.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "gh-pages": "^4.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-gh-pages": "^0.5.4",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "@babel/preset-env"
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm', {"home": "active"})
+<div class="content-main">
+@@include('blocks/slider.htm')
+
+<!-- @@include('blocks/banner-feature.htm') -->
+
+@@include('blocks/about.htm')
+
+<!-- courses -->
+<section class="section-sm" id="best-fac">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">Best Faculty Award</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+    @@include('blocks/course.htm')
+    <!-- mobile see all button -->
+    
+  </div>
+</section>
+<!-- /courses -->
+
+<!-- @@include('blocks/cta.htm') -->
+
+<!-- @@include('blocks/success-story.htm') -->
+
+<!-- events -->
+<section class="section-sm" id = "events">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3" >Events</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+    @@include('blocks/events.htm')
+    <!-- mobile see all button -->
+    
+  </div>
+</section>
+<!-- /events -->
+
+
+
+<!-- blog -->
+<section class="section-sm" id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3" >Projects</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+    
+    @@include('blocks/blog.htm')
+  </div>
+</section>
+<!-- /blog -->
+
+@@include('blocks/teachers.htm')
+</div>
+<!-- @@include('blocks/footer.htm') -->
+
+@@include('footer.htm')
